@@ -1,0 +1,57 @@
+.container {
+    width: 1296px;
+    margin: 0 auto;
+}
+
+.product-row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -4px;
+    margin-left: -4px;
+}
+
+.product-col {
+    width: calc(100% / 12 * 6);
+    padding-right: 4px;
+    padding-left: 4px;
+}
+
+.content-row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -12px;
+    margin-left: -12px;
+}
+
+.content-col {
+    width: calc(100% / 12 * 3);
+    padding-right: 12px;
+    padding-left: 12px;
+}
+
+.size-color-list {
+    width: 64px;
+}
+.size-color-list:hover{
+    border: 1px solid var(--neutral-300);
+}
+
+.btn-size-list {
+    width: 160px;
+    border: 1px solid var(--neutral-300);
+}
+
+.btn-size-list.active,
+.btn-size-list:hover {
+    border: 1px solid var(--neutral-900);
+}
+
+
+.btn-wrapper {
+    display: flex;
+    gap: 8px;
+}
+
+.btn-wrapper .btn {
+    width: 50%;
+}

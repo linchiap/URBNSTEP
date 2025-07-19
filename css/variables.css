@@ -1,0 +1,32 @@
+/* variables */
+:root {
+    --primary-100: #F5FEE7;
+    --primary-200: #E8FEC5;
+    --primary-300: #C0FA73;
+    --primary-400: #57A203;
+    --primary-500: #477A11;
+
+    --neutral-0: #FFFFFF;
+    --neutral-100: #F8F9FA;
+    --neutral-100: #E9ECEF;
+    --neutral-300: #DEE2E6;
+    --neutral-400: #CED4DA;
+    --neutral-500: #ADB5BD;
+    --neutral-600: #6C757D;
+    --neutral-700: #495057;
+    --neutral-800: #343A40;
+    --neutral-900: #212529;
+
+    --functional-danger-100: #FCF1F1;
+    --functional-danger-200: #EBA7A7;
+    --functional-danger-300: #D74F4F;
+    --functional-warning-100: #FEF6EC;
+    --functional-warning-200: #F9C588;
+    --functional-warning-300: #F38B12;
+    --functional-success-100: #EFF8F4;
+    --functional-success-200: #9AD1BA;
+    --functional-success-300: #36A375;
+    --functional-info-100: #EEF5FC;
+    --functional-info-200: #97C3ED;
+    --functional-info-300: #3087DB;
+}

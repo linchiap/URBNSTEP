@@ -1,0 +1,20 @@
+/* 產品列表頁 */
+
+.container{
+    max-width: 1296px;
+    margin: 0 auto;
+}
+
+.sidebar .active{
+    color: var(--primary-400);
+}
+
+.page-item .btn{
+    padding: 8px 15px;
+    border-radius: none;
+}
+.page-item .active{
+    background-color: var(--primary-300);
+    font-weight: 500;
+    
+}
