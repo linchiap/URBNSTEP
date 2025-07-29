@@ -378,6 +378,10 @@
         padding-right: 16px;
         padding-left: 16px;
     }
+    .py-md-16{
+        padding-top: 16px;
+        padding-bottom: 16px;
+    }
 
     .px-md-12 {
         padding-right: 12px;
@@ -496,6 +500,9 @@
     .mb-md-12 {
         margin-bottom: 12px;
     }
+    .mb-md-8{
+        margin-bottom: 8px;
+    }
     .mb-md-0 {
         margin-bottom: 0;
     }
@@ -552,9 +559,15 @@
     color: var(--neutral-900);
 }
 
-.call-to-action {
-    margin-top: 40px;
+@media (max-width: 768px){
+    .breadcrumb-item+.breadcrumb-item::before{
+        padding: 0 8px;
+    }
 }
+
+/* .call-to-action {
+    margin-top: 40px;
+} */
 
 .copyright {
     padding-top: 32px;

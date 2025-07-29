@@ -22,9 +22,9 @@
 @media (max-width: 768px) {
     .hero-header {
         background-image: url("https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week3-4/hero-sm.png?raw=true");
-        background-repeat: no-repeat;
         background-size: cover;
         background-position: center center;
+        background-repeat: no-repeat;
     }
 
     .hero-header-dark {
